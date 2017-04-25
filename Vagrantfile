@@ -89,9 +89,16 @@ Vagrant.configure("2") do |config|
     echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
     echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 
-    echo 'Execute following commands on vagrant ssh.'
-    echo 'sudo /opt/mssql/bin/mssql-conf setup'
-    echo 'sudo systemctl restart mssql-server'
+    echo '#####'
+    echo '#####'
+    echo '#####'
+    echo '##### Execute following commands on vagrant ssh.'
+    echo '#####'
+    echo '##### $ sudo /opt/mssql/bin/mssql-conf setup'
+    echo '##### $ sudo systemctl restart mssql-server'
+    echo '#####'
+    echo '#####'
+    echo '#####'
   SHELL
 
 end
